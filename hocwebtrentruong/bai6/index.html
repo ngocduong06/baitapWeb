@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="example.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="example.js" defer></script>
+  </head>
+  <body>
+    <!-- thẻ trái -->
+    <div class="left">
+      <img
+        id="main"
+        style="height: 300px; width: 300px"
+        src="/bai6/ao-bong-da-real-madrid-2021-2022-san-nha-thailand-60f25582aac07.jpg"
+      />
+      <div class="img">
+        <img
+          style="width: 70px"
+          src="/bai6/Bo-quan-ao-da-banh-clb-bong-da-Real-Madrid-in-hinh-rong-mau-hong-23-24-den-vai-me-gai-thai-logo-theu-moi-nam-2023-2024-mat-truoc.jpg"
+          onclick="changeImage(this.src)"
+        />
+        <img
+          style="width: 70px"
+          src="/bai6/Bo-quan-ao-da-banh-clb-bong-da-Real-Madrid-MFC-xanh-tim-than-logo-theu-mua-23-24-nam-2023-2024-1.jpg"
+          onclick="changeImage(this.src)"
+        />
+        <img
+          style="width: 70px"
+          src="/bai6/download.jpg"
+          onclick="changeImage(this.src)"
+        />
+        <img
+          style="width: 70px"
+          src="/bai6/bang-size-quan-ao.jpg"
+          onclick="changeImage(this.src)"
+        />
+      </div>
+      <div class="icon">
+        <h6>Chia sẻ:</h6>
+        <i class="fab fa-facebook" style="color: blue"></i>
+        <i class="fab fa-facebook-messenger" style="color: blue"></i>
+        <i class="fab fa-twitter" style="color: #1da1f2"></i>
+        <div class="heart">
+          <i class="fas fa-heart" style="color: red"></i>
+          <h4>Đã thích</h4>
+          <h5>26,3k</h5>
+        </div>
+      </div>
+    </div>
+    <!-- thẻ bên phải -->
+    <div class="right">
+      <div class="row">
+        <h6 class="border">Yêu thích</h6>
+        <h4>
+          Quần Áo Bóng Đá,Đồ Đá Banh Real Trắng Hồng Đen 2023 2024 Thun Mè Cap
+          Cấp Thoáng Khí Thể Thao...
+        </h4>
+      </div>
+      <div class="row">
+        <h5>4.5</h5>
+        <div class="icon">
+          <div class="star">
+            <i class="star fill fas fa-star"></i>
+            <i class="star fill fas fa-star"></i>
+            <i class="star fill fas fa-star"></i>
+            <i class="star fill fas fa-star"></i>
+            <i class="star fill fas fa-star-half-alt"></i>
+          </div>
+          <h6 style="transform: translate(20px)">12k Đánh Giá</h6>
+        </div>
+      </div>
+      <div class="price">
+        <h5 style="text-decoration: line-through">&#8363;144.000</h5>
+        <h2 style="color: rgb(239, 118, 32)">&#8363;89.000</h2>
+        <h6 class="border">35% Giảm</h6>
+      </div>
+      <div class="row">
+        <!-- thẻ bên phải 1 -->
+        <div class="right1">
+          <h5>Chính Sách Trả Hàng</h5>
+          <h5>Bảo Hiểm</h5>
+          <h5>Vận Chuyển</h5>
+          <h5 style="transform:translate(0,50px)">Màu</h5>
+          <h5 style="transform:translate(0,50px)">Size</h5>
+          <h5 style="transform:translate(0,50px)">Số Lượng</h5>
+        </div>
+        <!-- thẻ bên  phải 2 -->
+        <div class="right2">
+          <div class="row">
+            <label> <input type="checkbox" />Trả Hàng 15 ngày </label>
+            <h6 style="color: rgb(141, 145, 145)">Đổi ý miễn phí</h6>
+            <i
+              class="fas fa-question-circle"
+              style="color: rgb(94, 96, 96)"
+            ></i>
+          </div>
+          <div class="insurance">
+            <h5>Bảo Hiểm Thời Trang</h5>
+            <h6 class="border">mới</h6>
+            <h6 style="color: #1da1f2">Tìm hiểu thêm</h6>
+          </div>
+          <div class="freeShip">
+            <h6 style="color: rgb(67, 203, 207)">Freeship</h6>
+            <h6>Miễn Phí Vận Chuyển</h6>
+          </div>
+          <div class="freeShip2">
+            <i class="fas fa-truck"></i>
+            <h6>Vận Chuyển Tới</h6>
+            <input list="address" placeholder="Ba Vì" style="color: black" />
+            <datalist id="address">
+              <option value="Ba Vì"></option>
+              <option value="Hà Nội"></option>
+              <option value="TP.Hồ Chí Minh"></option>
+              <option value="Thái Bình"></option>
+              <option value="Thái Nguyên"></option>
+              <option value="Bắc Ninh"></option>
+              <option value="Thanh Hóa"></option>
+            </datalist>
+          </div>
+          <div class="freeShip3">
+            <h6>Phí Vận Chuyển</h6>
+            <h6>0&#8363</h6>
+          </div>
+          <div class="color">
+              <div class="color1"><input type="radio" name="color" value="white" >Trắng</div>
+              <div class="color2"><input type="radio" name="color" value="blue">Xanh</div>
+              <div class="color3"> <input type="radio" name="color" value="black">Đen</div>
+              <div class="color4"><input type="radio" name="color" value="pink">Hồng</div>
+            </div>
+         <div class="size">
+          <div class="sizeS"><input type="radio" name="size" value="S">S</div>
+          <div class="sizeM"><input type="radio" name="size" value="M">M</div>
+          <div class="sizeL"><input type="radio" name="size" value="L">L</div>
+          <div class="sizeXL"><input type="radio" name="size" value="XL">XL</div>
+         </div>
+         <div class="count">
+          <button id="decrease">-</button>
+          <input type="number" id="quanTiTy" value="1" min="1" class="number" >
+          <button id="increase">+</button>
+         </div>
+         <div class="money">
+          <h3>Thành tiền:</h3>
+          <input type="text" id="money" value="&#8363" readonly style="width:100px">
+         </div>
+         <div class="shop">
+       <h6 style="transform:translate(0,-20px);color:rgb(241, 175, 51)">   
+        <i class="fas fa-shopping-cart fa-1x" >
+       </i> Thêm Vào Giỏ Hàng</h6>
+         </div>
+         <div class="buy">
+          <h5 style="transform:translate(0,-15px)">Mua Ngay</h5>
+         </div>
+      </div>
+    </div>
+  </body>
+</html>

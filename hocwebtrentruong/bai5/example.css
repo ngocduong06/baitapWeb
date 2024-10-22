@@ -1,0 +1,26 @@
+body {
+}
+.wallet {
+  border: 2px solid rgb(194, 193, 193);
+  width: 300px;
+  height: 600px;
+  transform: translate(442px, -20px);
+  text-align: center;
+  background-color: aliceblue;
+}
+input[list] {
+  width: 80px;
+  height: 20px;
+}
+select {
+  width: 90px;
+  height: 25px;
+}
+input[type="submit"] {
+  width: 120px;
+  height: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(5, 153, 5);
+  font-family: "Roboto", sans-serif;
+}

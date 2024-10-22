@@ -1,0 +1,53 @@
+body {
+  align-items: center;
+  background-color: aliceblue;
+  height: 400px;
+}
+.container {
+  flex-direction: column;
+  position: relative;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.so1 {
+  transform: translate(-3px);
+  background-color: cornflowerblue;
+}
+.so2 {
+  background-image: url(/bai3/grey-stone-vector-texture-background-260nw-2477764757.webp);
+  height: 260px;
+  width: 950px;
+  text-align: center;
+}
+.so3 {
+  height: 170px;
+  width: 1000px;
+  transform: translate(-3px, -18px);
+  background-image: url(/bai3/pngtree-wall-rock-texture-grain-dark-gray-background-image_780289.jpg);
+  color: aliceblue;
+}
+.so4 {
+  transform: translate(1000px, -188px);
+}
+.so5 {
+  transform: translate(0, -190px);
+  background-image: url(/bai3/download.jpg);
+  text-align: right;
+  padding-right: 15px;
+  color: darkblue;
+}
+.line1 {
+  margin-left: 50px;
+}
+.line2 {
+  margin-right: 20px;
+}
+.line3 {
+  margin-left: 125px;
+}
+.line4 {
+  margin-left: 30px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="example.css" />
+    <script src="example.js"></script>
+  </head>
+  <body>
+    <form id="submit" onsubmit="return validateForm() ;">
+      <div class="wallet">
+        <h2 style="color: rgb(65, 65, 245); text-align: center">Facebook</h2>
+        <h3>Tạo tài khoản mới</h3>
+        <h5 style="color: rgb(73, 73, 73); transform: translate(0, -20px)">
+          Nhanh gọn và dễ dàng
+        </h5>
+        <div class="fullName">
+          <input
+            type="text"
+            id="surname"
+            placeholder="Họ"
+            style="width: 200px; height: 35px; border-radius: 8px"
+          />
+          <input
+            type=" text"
+            id="name"
+            placeholder="Tên"
+            style="width: 200px; height: 35px; border-radius: 8px"
+          />
+        </div>
+        <div class="id">
+          <input
+            type="number"
+            id="id"
+            name="id"
+            placeholder="mã sinh viên"
+            style="width: 400px; height: 35px; border-radius: 8px"
+          />
+        </div>
+        <h5>Ngày sinh</h5>
+        <input type="date" id="date" />
+        <h5>Giới tính</h5>
+        <div class="gender">
+          <li><input type="radio" id="gender" name="male" />Nam</li>
+          <li><input type="radio" id="gender" name="female" />Nữ</li>
+          <li><input type="radio" id="gender" name="other" />Khác</li>
+        </div>
+        <button
+          type="submit"
+          id="subMit"
+          style="
+            transform: translate(0, 5px);
+            color: rgb(223, 220, 220);
+            background-color: rgb(78, 78, 253);
+          "
+        >
+          Đăng ký
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

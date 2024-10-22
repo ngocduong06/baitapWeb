@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="example.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <h1 style="color: rgb(52, 52, 238); 
+    text-align: center;
+    font-family:initial;"
+    >facebook</h1>
+    <div class="wallet">
+      <h2><b>Tạo tài khoản mới</b></h2>
+      <h5 style="color: rgb(95, 94, 94);
+       transform: translate(0, -20px)">
+        Nhanh chóng và dễ dàng
+        <hr />
+      </h5>
+      <!-- tạo ô nhập họ -->
+      <label for="lastName"></label>
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        placeholder="Họ"
+        style="width: 130px; height: 20px"
+        required
+      />
+      <!-- tạo ô nhập tên -->
+      <label for="name"></label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Tên"
+        style="width: 130px; height: 20px"
+        required;
+      />
+      <!-- tạo ô nhập sdt hoặc email -->
+      <label for="email-phone"></label>
+      <input
+      type="text"
+        id="email-phone"
+        name="email-phone"
+        placeholder="Số di động hoặc email"
+        style="width:275px;
+        height:20px;
+        transform:translate(0,10px);"
+        required
+      ></input>
+      <!-- tạo ô nhập mật khẩu -->
+      <label for="password"></label>
+      <input type="password"
+       id="password" 
+      name="password" 
+      placeholder="Mật khẩu"    
+      style="width:275px;
+      height:20px;
+      transform:translate(0,20px);"
+      required>
+      <div style="text-align: left; 
+      transform:translate(0,5px)">
+        <h6 style="color: rgb(95, 94, 94)">Ngày sinh
+          <i class="fas fa-question-circle"></i>
+        </h6>
+      </div>
+<div class="select">
+        <!-- tạo ô chọn ngày -->
+        <div style="transform: translate(-100px, -12px);">
+          <label for="date" ></label>
+          <select id="date" name="date"></select> 
+        </div>
+        <!-- tạo ô chọn tháng -->
+        <div style="transform:translate(-2px,-37px)">
+          <label for="month"></label>
+          <select id="month" name="month"></select>
+        </div>
+        <!-- tạo ô chọn năm -->
+      <div style="transform:translate(94px,-62px)"> 
+         <label for="year"></label>
+        <select id="year" name="year"></select>
+        </div>
+</div>
+<div style="text-align: left; 
+transform:translate(0,-70px)">
+  <h6 style="color: rgb(95, 94, 94)">Ngày sinh
+    <i class="fas fa-question-circle"></i>
+  </h6>
+</div>
+        <div style="border:1px solid black;
+        width:90px;
+        transform:translate(3px,-90px)">
+     <label for="Nam">Nam</label>
+     <input type="checkbox" id="Nam" name="Nam">
+</div>
+    <div style="border:1px solid black;
+    width:90px;
+    transform:translate(100px,-111px)">
+      <label for="Nữ">Nữ</label>
+      <input type="checkbox" id="Nữ" name="Nữ">
+    </div>
+    <div  style="border:1px solid black;
+    width:90px;
+    transform:translate(200px,-132px)" >
+      <label for="Khác">Khác</label>
+      <input type="checkbox" id="Khác" name="Khác">
+    </div>
+    <div>
+      <input list="option"
+      style="width:280px;
+      transform:translate(-2px,-120px)"
+      placeholder="Anh ấy:Chúc anh ấy sinh nhật vui vẻ!"
+      >
+      <datalist id="option">
+        <option value="Anh ấy:Chúc anh ấy sinh nhật vui vẻ!"></option>
+        <option value="Cô ấy:Chúc cô ấy hạnh phúc!"></option>
+      </datalist>
+    </div>
+    <h5 style="color: rgb(95, 94, 94);
+    transform:translate(0,-135px);">
+      Danh xưng của bạn hiển thị với tất cả mọi người
+    </h5>
+   <div style="transform:translate(0,-150px);"> 
+    <label for="gender"></label>
+    <input type="text" id="gender" name="gender"
+     placeholder="Giới tính(không bắt buộc)"
+     style="width:280px;
+     height:20px;"
+     >
+  </div>
+    <div style="color: rgb(95, 94, 94);
+    transform:translate(0,-160px)">
+      <h6>Những người sử dụng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn
+      lên Facebook.
+      <a style="color:rgb(81, 134, 231)">Tìm hiểu thêm</a>
+    </h6>
+  </div>
+  <div style="color: rgb(95, 94, 94);
+  transform:translate(0,-180px)">
+    <h6>Bằng cách nhấp vào đăng ký,bạn đồng ý với 
+      <a style="color:rgb(81, 134, 231)">Điều khoản.Chính sách quyền riêng tư 
+        và chính sách Cookie</a>
+        của chúng tôi.Bạn có thể nhận được thông báo của chúng tôi qua sms 
+        và có thể hủy bất cứ lúc nào
+    </h6>
+  </div>
+  <div style="transform:translate(0,-190px)">
+    <input type="submit" value="Đăng ký">
+  </div>
+<div style="color:rgb(81, 134, 231);
+transform:translate(0,-180px)">
+  <a > Bạn đã có tài khoản ư?</a>
+</div>
+    </div>
+    <script>
+      // JavaScript để tạo các tùy chọn năm
+      document.addEventListener('DOMContentLoaded', function(){
+        var yearSelect = document.getElementById('year');
+          var newYear = new Date().getFullYear();
+          var startYear = 1900;
+          for (var year = startYear; year <= newYear; year++) {
+              var option = document.createElement('option');
+              option.value = year;
+              option.textContent = year;
+              yearSelect.appendChild(option);
+          }
+          var dateSelect=document.getElementById('date');
+        for(var date=1;date<=31;date++) {
+         var option=document.createElement('option');
+         option.value=date;
+         option.textContent=date;
+         dateSelect.appendChild(option);
+        }
+        var monthSelect=document.getElementById('month');
+        for(var i=1;i<=12;i++){
+          var option=document.createElement('option');
+          option.value=i;
+          option.textContent=i;
+          monthSelect.appendChild(option);
+        }
+      })
+  </script>
+  </body>
+</html>

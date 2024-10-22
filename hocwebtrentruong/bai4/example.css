@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: row;
+  height: 97vh;
+  background-color: aliceblue;
+  gap: 3px;
+  font-family: Calibri;
+  background-image: url(/anh-background-dep.jpg);
+}
+.left {
+  width: 200px;
+}
+.center {
+  transform: translate(3px);
+  width: 1000px;
+  height: 693px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+.right {
+  transform: translate(7px);
+  width: 300px;
+  align-items: flex-start;
+  background-color: rgb(159, 191, 192);
+  height: 693px;
+}
+
+.divImg {
+  height: 200px;
+  width: 150px;
+  border-radius: 100%;
+  border: 10px solid white;
+  transform: translate(15px, 10px);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
+  background-color: rgb(243, 189, 189);
+  font-size: 14px;
+}
+.divTT {
+  transform: translate(42px);
+
+  width: 120px;
+
+  text-align: center;
+}
+.divTT2 {
+  color: black;
+
+  height: 1000px;
+  width: 200px;
+  background-color: rgb(151, 198, 198);
+}
+.divTT2 h6 {
+  /* trên phải dưới trái   */
+  margin: -12px 0 0 20px;
+}
+.imgRightBody img {
+  max-width: 100%; /* Đảm bảo hình ảnh không vượt quá phần tử chứa */
+  height: auto; /* Giữ tỷ lệ khung hình của hình ảnh */
+  display: block; /* Đảm bảo hình ảnh được hiển thị như một phần tử khối */
+  background-color: rgb(126, 166, 240);
+}

@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.wallet {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(208, 207, 207);
+  width: 450px;
+  height: 550px;
+  padding-top: 25px;
+  border-radius: 15px;
+}
+.fullName {
+  text-align: center;
+}
+.id {
+  text-align: center;
+  transform: translate(0, 10px);
+}
+.gender {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+li {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+}
+input.value {
+  text-align: right;
+}
